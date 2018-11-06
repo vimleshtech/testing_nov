@@ -1,0 +1,60 @@
+https://github.com/vimleshtech/testing_nov
+============================================
+
+Day-01
+==============
+-OVerview Testing
+-SDLC   : software development life cycle 
+There are following phases of SDLC:
+	pre: 
+		Inception 
+
+	i. Requirement Gathering & Analysis  : by Business Analyst (BA)
+		outcome:	
+		-SRS		: software requirement specification 
+		-FR(FRS/FRD)	: functional requirement
+		-BR(BRS/BRD)	: business requirement 
+		
+	ii. Design				: by Software Architect/Sortion Architech
+		-HLD : high level design(outer/ module wise design)	
+		-LLD : low level design (inner/ functionalities of application)
+
+	iii. Development/Coding		: by software developer 
+		-convert design to executable code 
+	iv. Testing/QA/SQT		: by software tester
+		Level of testing:
+		i. Unit Testing
+		ii. Integration testing
+		iii. System testing
+		iv. UAT(user acceptence testing)
+
+		
+		
+	v.  Release			
+			-Handover the product to client 
+
+	after:
+		maintainance
+	
+
+
+-Testing Documents and Terms
+===============================
+SDLC	:Software development life cycle
+STLC	:Software testing life cycle
+BUG 	: before release error is known as bug 
+DEFECT	: after release error is known as defect 
+
+SRS		: software requirement specification 
+FR(FRS/FRD)	: functional requirement specification/documentation  
+BR		: business requirement specification/documentation  
+TDD		: technical design document
+RTM		: requirement tracibility matrix 
+
+TestCase 
+TestScenaio 
+
+
+
+
+	
