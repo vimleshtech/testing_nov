@@ -1,0 +1,157 @@
+SQL(STructured Query Language)
+Types of command:
+1.DDL(Data Definition Language)  (Create,Alter,Drop,Truncate)
+2.DML(Data Manipulation Language) (Insert,Update,Delete)
+3.DQL(Data Query Language)        (Select)
+
+
+--creating database--
+create database dbname;
+
+
+use dbname;
+
+
+--creating table--
+create table tbname(
+colname datatype,
+colname datatype);
+
+--datatypes--
+int,varchar,date,datetime
+
+
+--inserting records--
+insert into tbname values();
+
+
+--updating records--
+update tbname set colname=new_value;
+
+update tbname set colname=new_value where colname=value;
+
+
+--deleting records--
+delete table tbname;
+
+delete table tbname where colname=value;
+
+
+--ALter--
+-Alter for adding a column-
+alter table tbname add column colname datatype;
+
+-Alter for modifying a column-
+alter table tbname modify column colname datatype;
+
+-Alter for dropping a column-
+alter table tbname drop column colname;
+
+
+--drop--
+-drop database-
+drop database dbname;
+
+-drop table-
+drop table tbname;
+
+
+--truncate--
+truncate table tbname;
+
+
+
+-------------------------------------------------------------
+mysql> create database sample;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use sample;
+Database changed
+mysql> create table emp(
+    -> id int,
+    -> name varchar(40),
+    -> age int,
+    -> dept varchar(30),
+    -> salary int);
+Query OK, 0 rows affected (0.19 sec)
+
+mysql> select * from emp;
+Empty set (0.05 sec)
+
+mysql> insert into emp values(1,'aman',25,'IT',25000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from emp;
++------+------+------+------+--------+
+| id   | name | age  | dept | salary |
++------+------+------+------+--------+
+|    1 | aman |   25 | IT   |  25000 |
++------+------+------+------+--------+
+1 row in set (0.00 sec)
+
+mysql> insert into emp values(2,'mohit',25,'HR',24000);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from emp;
++------+-------+------+------+--------+
+| id   | name  | age  | dept | salary |
++------+-------+------+------+--------+
+|    1 | aman  |   25 | IT   |  25000 |
+|    2 | mohit |   25 | HR   |  24000 |
++------+-------+------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> update emp set age=24 where id=2;
+Query OK, 1 row affected (0.03 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from emp;
++------+-------+------+------+--------+
+| id   | name  | age  | dept | salary |
++------+-------+------+------+--------+
+|    1 | aman  |   25 | IT   |  25000 |
+|    2 | mohit |   24 | HR   |  24000 |
++------+-------+------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> delete from emp where id=1;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from emp;
++------+-------+------+------+--------+
+| id   | name  | age  | dept | salary |
++------+-------+------+------+--------+
+|    2 | mohit |   24 | HR   |  24000 |
++------+-------+------+------+--------+
+1 row in set (0.00 sec)
+
+mysql> alter table emp add column gender varchar(1);
+Query OK, 0 rows affected (0.17 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from emp;
++------+-------+------+------+--------+--------+
+| id   | name  | age  | dept | salary | gender |
++------+-------+------+------+--------+--------+
+|    2 | mohit |   24 | HR   |  24000 | NULL   |
++------+-------+------+------+--------+--------+
+1 row in set (0.00 sec)
+
+mysql> alter table emp modify gender varchar(6);
+Query OK, 0 rows affected (0.06 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table emp drop column gender;
+Query OK, 0 rows affected (0.13 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from emp;
++------+-------+------+------+--------+
+| id   | name  | age  | dept | salary |
++------+-------+------+------+--------+
+|    2 | mohit |   24 | HR   |  24000 |
++------+-------+------+------+--------+
+1 row in set (0.00 sec)
+
+mysql>
+
