@@ -1,0 +1,84 @@
+•	Test Lead with more than 9 years of progressive experience in Quality Assurance and Testing activities with good understanding of Manual Testing, Database Testing (Data Migration and Data Validation), API Testing, Black Box Testing, Web Application Testing, Web Service Testing, WebApi Testing, SQL Testing.
+•	An inspired Leader and an effective Team Member with distinguished abilities to work independently as well as part of a team and manage the team as well.
+•	Currently managing a team of 6 consisting of Sr. Test Engineers and Test Engineers.
+•	Expertise in testing of Web based, Client Server applications and Database Testing (validation and migration) with effective use of QA and Testing practices.
+•	Having working knowledge of Selenium Web Driver
+•	Excellent knowledge of various phases of STLC with ‘Defect life cycle’ and SDLC.
+•	Expert in Black Box Testing mainly for Web based applications.
+•	Expertise in the areas of Test Planning, Requirement Analysis, Client Coordination, Team Management, People Management.
+•	Expertise in managing resources/teams within Onsite- Offshore model.
+•	Expertise in implementing and following Agile methodology.
+•	Expertise in steering a team of Agile Testers towards collaborative, cohesive testing that results in the highest quality software.
+•	Expertise in working with Cross Functional Team(CFT) on Requirement Analysis, Test Planning, Test Execution Strategy, Bug Triages, Test Execution Reports, Post Deployment Test Strategy/Execution, Signing Off the Test environments.
+•	Expertise in Problem Solving and Bug tracking using Tracking Tools like BUGZILLA, TFS.
+•	Expertise in performing GUI, Functional, Integration, Sanity, System, Regression, Database (Data Migration and Data Validation) and End-to-End testing.
+•	Experience in Localization (Multi Lingual) Testing.
+•	Experience in API Testing, Web Service Testing and Web Api Testing using SoapUi.
+•	Experience in SQL Database Testing with ability to writing quires and analysis of Data.
+•	Basic knowledge of Programming with .Net Framework using C#, ASP.NET.
+•	Experience in setting up Test Environment by Building and Deploying Source code.
+
+
+	Proficient in Test Automation using Selenium tool.
+	1 Year experience in the area of Software Development using ASP.NET Framework.
+	Knowledge of Design and implemented different automation frameworks like Keyword Driven Framework, Data Driven Framework and Hybrid Framework.
+	Good experience with all levels of testing including Usability, Functional, Integration, Regression, Re-testing and User Acceptance Testing.
+
+	Experience in preparation of automated test scripts to perform Regression testing using Selenium
+	Writing test cases using TestNG and Junit Annotations.
+	Experience in writing XPath expression.
+	Good knowledge of Data provider, Suite and Listner.
+	Well acquainted with all phases of SDLC and STLC.
+	Self-motivated and energetic in all work related assignments.
+ 
+
+
+
+
+Work Experience
+
+1)	COMPANY :ALPHA TECH PVT. LTD,  GURGAON [JAN 2015 TO  TILL DATE]
+     	DESIGNATION: SOFTWARE TESTING ENGINEER
+	
+a)	Project Name: Adda52(Poker website)
+Team Size: 4
+	
+       Project description:
+Adda52 is site to play online poker in India. It let users to play many poker games like Texas Hold’em Poker, Omaha Poker, Omaha Hi/Lo Poker, Sprint Poker and Crazy Pineapple Poker with other poker player across India. With completely legal and real games provided, Adda52 is currently having more than 9,00,000 Registered user.
+
+Roles & Responsibilities:
+	
+•	Test case preparation using requirement’s documents gathered from grooming meetings or description given on JIRA and executing them.
+•	Manually testing key features of the product based on scenarios.
+•	Identifying the Bugs, logging and prioritizing them and communicated the bugs to the developers.
+•	Creating bug report using Excel.
+•	Perform regression testing.
+•	Coordinating smooth implementation of test plans with the development team.
+•	Coordinating with the Team members for better results.
+•	Experience and good knowledge of Smoke and Sanity testing, Functional testing, Ad-hoc testing and Regression testing.
+•	Cross Browser Compatibility testing on Browserstack.
+•	Perform manually Functional, GUI, Regression, Load and Stress testing
+
+b)	Project Name: Retail Shop Management(Web Application) 
+Team Size: 3
+
+Project description:
+Retail Shop Management application is used in shops for Sales of products, Billing & payment management, Stock management, Cash & shop management, Customer & account management and Reporting etc. Business benefits of this application are Integrated cash & shop management and Customer satisfaction.
+
+Roles & Responsibilities:
+
+•	Was involved in Manual Testing of Specific Modules.
+•	UI Testing.
+•	Involved with writing Test Cases & Bug Reporting.
+•	Understanding the Functional Specification and Requirement Documentation.
+2)	COMPANY : METAWEB TECHNOLOGIES PVT. LTD., NOIDA [NOV 2013 TO  DEC 2014]
+     	DESIGNATION: SOFTWARE DEVELOPER
+	
+Roles & Responsibilities:
+
+•	Coordinating with clients, understanding their needs & gathering the requirements for implementation.
+•	Developing the Code as per the requirements, Mostly, different modules for different projects were implemented like:- Attendance management, leave management, Stock management etc.
+•	Modify existing programs with enhancements.
+•	Perform unit and integration test on assigned modules.
+•	Assisting seniors and completing the work assigned by them.
+
