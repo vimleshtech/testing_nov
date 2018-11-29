@@ -1,0 +1,81 @@
+﻿Topics
+====================
+Overview of java:
+-Java is a high-level programming language originally developed by Sun Microsystems 
+and released in 1995.
+-Java is Object Oriented 
+-Java is Platform Independent(works on all operating system like : mac, windows, linux etc.)
+-Java Version 
+		JDK 11	
+		JDK 10		stable version
+		JDK 9
+		JDK 8		stable version 
+		JDK 7
+		...
+-Java Editors
+		-Notepad
+		-Eclipse
+		-Netbeans
+
+
+There are two data types available in Java:
+
+-Primitive Data Types
+	Without Decimal 
+	-byte	: 1 byte
+	-short	: 2 byte
+	-int	: 4 byte
+	-long	: 8 byte
+
+	With Decimal 
+	-float	: 4 byte
+	-double	: 8 byte
+	
+	Alpha Numeric:
+	-char	: 2 byte 	char c ='1';	
+
+-Reference/Object Data Types
+
+	-ArrayList
+	-List
+	-HashMap 
+
+
+Now - I will open Eclipse and will create new project 
+
+	1. Go to file menu -> New -> Other -> Java Project
+	2. Right click on project then new Package
+	3. Right click on Package then new Class 
+	
+
+
+package example;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int a,b,c;
+		a =33;
+		b =44;
+		
+		c =a+b;
+		
+		System.out.println("sum of two numbers :"+c);
+		
+		//show greater no
+		if(a>b )
+		{
+			System.out.println("a is greater");
+		}
+		else
+		{
+			System.out.println("b is greater ");
+		}
+
+	}
+
+}
+
+--the end --rest u will take care 	
+	
