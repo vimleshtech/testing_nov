@@ -1,0 +1,222 @@
+RDS : relational database services
+============
+DBMS	: database management system
+	: is file system (csv, xls)	
+RDMBS	: relational database system
+	: client-server architcture
+	
+	There are following products:
+	-My SQL Server 		**
+	-MariaDB		**
+	-MS SQL Server 		**
+	-Oracle
+	-Postrage SQL 
+	etc.
+	
+
+
+client-server
+
+server: is physical/virtual machine data can be stored 
+client: connector 
+	-Workbench		**	
+	-Heildsql **
+	-MS SSMS (SQL Server management studio)	**
+	-Oracle Developer 
+	
+
+Instance: 
+	
+
+	localhost:dbsn1		
+	192.168.1.0/dbsn1
+
+user id :
+password:
+	
+===========================
+SQL : structural query language 
+
+SQL Command Type:
+====================
+-DDL	: data defintion language
+	-create			: create new object
+	-alter			: modify the structure of existing object
+	-drop			: remove the object
+	-truncate		: remove alld data, but structure will remain 								same
+-DML	: data manipulation language		**
+	-insert	
+	-delete
+	-update 
+-DCL	: data control language
+	-Creater User
+	-Grant Access
+	-Revoke Access 
+-TCL	: transaction control language		**
+	-begin transaction 
+	-rollback
+	-commit 
+-DQL 	: data query language 			**
+	-select 
+
+
+Database: is relation schema (group of objects) and collection of data in 		tabular format
+
+	
+>show database;			--show list of existing database 
+>create database <dbname>;	--create new database 
+>use hrms;			--switch database 
+				cd dirname
+>show tables;			--show list of existing tables 
+							-entity
+
+
+-create			: create new object
+====================
+>create table users(id int, name varchar(40), pwd varchar(30));
+>desc tablename;
+	
+
+-alter			: modify the structure of existing object
+=====================================
+>alter table users add status int;	--add new column
+>alter table users drop column status;	--remove column 
+
+
+-drop			: remove the object
+==============================
+>drop table users;		--remove table with data 
+
+-truncate	: remove alld data, but structure will remain 	same
+===============
+>truncate table users;		
+
+-insert	:add /save new row in table
+========================
+insert into users(id,name,pwd) values(1,'raman','abc@123');
+
+--view or show data
+========================
+select * from users;  --show data
+	* : show all columns
+
+select name,pwd from users;
+	
+--alias 
+select name as username,pwd as password from users;
+
+
+-update 
+==============
+update users set name ='jatin' where id =1;
+
+-delete : remove row
+==============
+delete from users where id =1;
+
+
+
+create table orders(id int auto_increment primary key, name varchar(100));
+
+
+where : to filter the rows/records 
+operator 
+      	>
+	>=
+	<
+	<=
+	=
+	!=
+	<>
+	in 
+	not in
+	between
+	not between 
+order by	: to arrange data in acending or decending order 
+		
+group by	: to summarize the data 
+
+functons
+	aggregiate function:
+		sum()
+		max()
+		min()
+		count()
+
+
+keywords
+	limit	(my sql server, oracle) , top (ms sql server)		
+	distinct	: show unique rows
+	
+
+
+
+
+
+		
+
+
+	
+
+
+select * from employee 
+
+
+begin transaction 
+
+
+delete from employee 
+where eid =3;
+
+select * from employee ;
+
+rollback 
+commit
+
+select * from employee where eid>1;
+
+select * from employee where eid in (6,4,5,20)
+
+select * from employee where eid not in (6,4,5,20)
+
+
+select * from employee where eid between 1 and 10;
+
+select * from employee where eid not between 1 and 10;
+
+select * from employee  order by eid asc;
+
+select * from employee  order by eid desc;
+select * from employee  order by ename asc;
+
+
+select gender, count(gender) from employee 
+group by gender;
+
+select country, sum(eid) from employee 
+group by country;
+
+
+select country, max(eid) from employee 
+group by country;
+
+select country, min(eid) from employee 
+group by country;
+
+
+select top 2 * from employee;
+select top 5 * from employee;
+
+select * from employee limit 2;
+ 
+
+
+
+
+
+
+
+
+
+		
+	
